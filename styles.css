@@ -1,0 +1,64 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 900px;
+    width: 94%;
+    background-color: yellow;
+    position: relative;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+div {
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem
+}
+
+#whole {
+    width: 60px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 2px;
+    background-color: white;
+    font-size: .6rem;
+}
+
+#succeed {
+    height: 30px;
+    width: 37px;
+    font-size: .7rem;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-weight: bold;
+}
+
+
+header {
+    background-color: orange;
+    width: 94%;
+    text-align: center;
+}
